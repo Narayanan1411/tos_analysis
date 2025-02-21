@@ -94,7 +94,6 @@ Customization
 
 License & Contact
 -----------------
-This project is provided “as is” without warranty of any kind.  
-For questions, suggestions, or support, please contact: [Your Email Address].
+For questions, suggestions, or support, please contact: narayanan.p1411@gmail.com.
 
 Enjoy your comprehensive analysis and interaction with website policies and terms!
