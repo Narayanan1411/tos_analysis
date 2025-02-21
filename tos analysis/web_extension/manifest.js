@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Comprehensive TOS Analyzer",
+  "version": "1.0",
+  "description": "Extracts policy/TOS text from the website, calls multiple API endpoints for analysis, and displays results including website safety score.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "http://localhost:8000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
