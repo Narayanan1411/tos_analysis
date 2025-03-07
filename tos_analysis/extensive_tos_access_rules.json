@@ -1,0 +1,404 @@
+{
+  "TOS_Access_Rules": [
+    {
+      "id": 1,
+      "data_category": "Personal_Information",
+      "department": "Customer Support",
+      "tos_clause": "Customer Support personnel are allowed access to personal information for account management and support purposes as per the TOS.",
+      "legal_basis": "Contract performance and user consent",
+      "access_allowed": true
+    },
+    {
+      "id": 2,
+      "data_category": "Personal_Information",
+      "department": "Marketing",
+      "tos_clause": "Marketing can access aggregated personal information for campaign analysis, but individual details are restricted.",
+      "legal_basis": "Explicit consent required",
+      "access_allowed": false
+    },
+    {
+      "id": 3,
+      "data_category": "Payment_Information",
+      "department": "Finance",
+      "tos_clause": "Finance is granted access to payment information for processing transactions and fraud prevention.",
+      "legal_basis": "Contractual necessity",
+      "access_allowed": true
+    },
+    {
+      "id": 4,
+      "data_category": "Payment_Information",
+      "department": "Marketing",
+      "tos_clause": "Marketing cannot access payment information to ensure user privacy.",
+      "legal_basis": "Privacy protection",
+      "access_allowed": false
+    },
+    {
+      "id": 5,
+      "data_category": "Health_Records",
+      "department": "Medical",
+      "tos_clause": "Medical staff are permitted to access health records to deliver healthcare services under HIPAA.",
+      "legal_basis": "Healthcare provision and HIPAA compliance",
+      "access_allowed": true
+    },
+    {
+      "id": 6,
+      "data_category": "Health_Records",
+      "department": "Finance",
+      "tos_clause": "Finance is not allowed access to health records as they are strictly confidential.",
+      "legal_basis": "Regulatory compliance",
+      "access_allowed": false
+    },
+    {
+      "id": 7,
+      "data_category": "Usage_Data",
+      "department": "IT and Analytics",
+      "tos_clause": "IT and Analytics can access detailed usage data for performance monitoring.",
+      "legal_basis": "Operational necessity",
+      "access_allowed": true
+    },
+    {
+      "id": 8,
+      "data_category": "Usage_Data",
+      "department": "Marketing",
+      "tos_clause": "Marketing may only access aggregated usage data for trend analysis.",
+      "legal_basis": "User consent and anonymization",
+      "access_allowed": false
+    },
+    {
+      "id": 9,
+      "data_category": "Personal_Information",
+      "department": "Legal & Compliance",
+      "tos_clause": "Legal & Compliance can access personal information for regulatory reviews.",
+      "legal_basis": "Regulatory obligations",
+      "access_allowed": true
+    },
+    {
+      "id": 10,
+      "data_category": "Health_Records",
+      "department": "Legal & Compliance",
+      "tos_clause": "Legal & Compliance is permitted to access health records for auditing purposes.",
+      "legal_basis": "Audit and regulatory requirements",
+      "access_allowed": true
+    },
+    {
+      "id": 11,
+      "data_category": "Employment_Records",
+      "department": "HR",
+      "tos_clause": "HR may access employment records for payroll and benefits management.",
+      "legal_basis": "Employment contract",
+      "access_allowed": true
+    },
+    {
+      "id": 12,
+      "data_category": "Employment_Records",
+      "department": "Finance",
+      "tos_clause": "Finance is restricted from accessing detailed employment records; only aggregated data is allowed.",
+      "legal_basis": "Privacy and data minimization",
+      "access_allowed": false
+    },
+    {
+      "id": 13,
+      "data_category": "Customer_Feedback",
+      "department": "Marketing",
+      "tos_clause": "Marketing can review anonymized customer feedback for market research.",
+      "legal_basis": "User consent and anonymization",
+      "access_allowed": true
+    },
+    {
+      "id": 14,
+      "data_category": "Customer_Feedback",
+      "department": "Legal & Compliance",
+      "tos_clause": "Legal & Compliance may access customer feedback if required for regulatory investigations.",
+      "legal_basis": "Regulatory obligations",
+      "access_allowed": true
+    },
+    {
+      "id": 15,
+      "data_category": "Customer_Feedback",
+      "department": "Finance",
+      "tos_clause": "Finance should not access customer feedback as it is not relevant to financial operations.",
+      "legal_basis": "Data minimization",
+      "access_allowed": false
+    },
+    {
+      "id": 16,
+      "data_category": "Payment_Information",
+      "department": "Customer Support",
+      "tos_clause": "Customer Support can view masked payment information for order assistance.",
+      "legal_basis": "Operational necessity with masking",
+      "access_allowed": true
+    },
+    {
+      "id": 17,
+      "data_category": "Health_Records",
+      "department": "Research",
+      "tos_clause": "Research may access anonymized health records for clinical studies.",
+      "legal_basis": "Anonymization and research approval",
+      "access_allowed": true
+    },
+    {
+      "id": 18,
+      "data_category": "Health_Records",
+      "department": "Marketing",
+      "tos_clause": "Marketing is not permitted to access health records in any form.",
+      "legal_basis": "Strict privacy regulations",
+      "access_allowed": false
+    },
+    {
+      "id": 19,
+      "data_category": "Usage_Data",
+      "department": "IT and Analytics",
+      "tos_clause": "IT and Analytics have full access to usage data for system improvement.",
+      "legal_basis": "Operational necessity",
+      "access_allowed": true
+    },
+    {
+      "id": 20,
+      "data_category": "Usage_Data",
+      "department": "Legal & Compliance",
+      "tos_clause": "Legal & Compliance may access usage data for compliance audits.",
+      "legal_basis": "Regulatory obligations",
+      "access_allowed": true
+    },
+    {
+      "id": 21,
+      "data_category": "Customer_Feedback",
+      "department": "Research",
+      "tos_clause": "Research is allowed to analyze customer feedback in aggregate form.",
+      "legal_basis": "Academic research and anonymization",
+      "access_allowed": true
+    },
+    {
+      "id": 22,
+      "data_category": "Personal_Information",
+      "department": "Finance",
+      "tos_clause": "Finance may only access personal information relevant to financial transactions.",
+      "legal_basis": "Data minimization principles",
+      "access_allowed": false
+    },
+    {
+      "id": 23,
+      "data_category": "Payment_Information",
+      "department": "IT and Analytics",
+      "tos_clause": "IT and Analytics should have minimal access to payment logs for troubleshooting.",
+      "legal_basis": "Limited operational necessity",
+      "access_allowed": false
+    },
+    {
+      "id": 24,
+      "data_category": "Employment_Records",
+      "department": "Legal & Compliance",
+      "tos_clause": "Legal & Compliance can access employment records for legal investigations.",
+      "legal_basis": "Regulatory investigations",
+      "access_allowed": true
+    },
+    {
+      "id": 25,
+      "data_category": "Employment_Records",
+      "department": "Marketing",
+      "tos_clause": "Marketing is not authorized to access employment records.",
+      "legal_basis": "Privacy protection",
+      "access_allowed": false
+    },
+    {
+      "id": 26,
+      "data_category": "Usage_Data",
+      "department": "Marketing",
+      "tos_clause": "Marketing can access only aggregated usage data for market trends.",
+      "legal_basis": "Anonymization",
+      "access_allowed": true
+    },
+    {
+      "id": 27,
+      "data_category": "Personal_Information",
+      "department": "Research",
+      "tos_clause": "Research may access personal information if it is anonymized for studies.",
+      "legal_basis": "Academic use and anonymization",
+      "access_allowed": true
+    },
+    {
+      "id": 28,
+      "data_category": "Payment_Information",
+      "department": "Sales",
+      "tos_clause": "Sales is not permitted to access payment information directly.",
+      "legal_basis": "Data minimization and role limitation",
+      "access_allowed": false
+    },
+    {
+      "id": 29,
+      "data_category": "Location_Data",
+      "department": "IT and Analytics",
+      "tos_clause": "IT and Analytics may access raw location data for service optimization.",
+      "legal_basis": "Operational necessity",
+      "access_allowed": true
+    },
+    {
+      "id": 30,
+      "data_category": "Location_Data",
+      "department": "Marketing",
+      "tos_clause": "Marketing can access aggregated location data for regional analysis only.",
+      "legal_basis": "User consent and aggregation",
+      "access_allowed": true
+    },
+    {
+      "id": 31,
+      "data_category": "Device_Data",
+      "department": "IT and Analytics",
+      "tos_clause": "IT and Analytics can access device data for compatibility and troubleshooting.",
+      "legal_basis": "Operational necessity",
+      "access_allowed": true
+    },
+    {
+      "id": 32,
+      "data_category": "Device_Data",
+      "department": "Customer Support",
+      "tos_clause": "Customer Support is allowed limited access to device data to assist users.",
+      "legal_basis": "Support purposes",
+      "access_allowed": true
+    },
+    {
+      "id": 33,
+      "data_category": "Credit_History",
+      "department": "Finance",
+      "tos_clause": "Finance is permitted to access credit history data for credit scoring.",
+      "legal_basis": "Contractual necessity",
+      "access_allowed": true
+    },
+    {
+      "id": 34,
+      "data_category": "Credit_History",
+      "department": "Marketing",
+      "tos_clause": "Marketing is prohibited from accessing individual credit history details.",
+      "legal_basis": "Privacy protection",
+      "access_allowed": false
+    },
+    {
+      "id": 35,
+      "data_category": "Social_Security",
+      "department": "HR",
+      "tos_clause": "HR may access Social Security numbers for employment verification as required by law.",
+      "legal_basis": "Legal compliance and employment verification",
+      "access_allowed": true
+    },
+    {
+      "id": 36,
+      "data_category": "Social_Security",
+      "department": "Finance",
+      "tos_clause": "Finance is not allowed to access Social Security numbers except in aggregated reports.",
+      "legal_basis": "Privacy and data minimization",
+      "access_allowed": false
+    },
+    {
+      "id": 37,
+      "data_category": "Device_Data",
+      "department": "Research",
+      "tos_clause": "Research can access anonymized device data for academic studies.",
+      "legal_basis": "Anonymization and academic use",
+      "access_allowed": true
+    },
+    {
+      "id": 38,
+      "data_category": "Location_Data",
+      "department": "Operations",
+      "tos_clause": "Operations may access raw location data for logistics and planning.",
+      "legal_basis": "Operational necessity",
+      "access_allowed": true
+    },
+    {
+      "id": 39,
+      "data_category": "Credit_History",
+      "department": "Legal & Compliance",
+      "tos_clause": "Legal & Compliance is allowed access to credit history for fraud investigations.",
+      "legal_basis": "Regulatory investigations",
+      "access_allowed": true
+    },
+    {
+      "id": 40,
+      "data_category": "Payment_Information",
+      "department": "Sales",
+      "tos_clause": "Sales can access summarized payment information for sales forecasting.",
+      "legal_basis": "Aggregated data and operational necessity",
+      "access_allowed": true
+    },
+    {
+      "id": 41,
+      "data_category": "Customer_Feedback",
+      "department": "Sales",
+      "tos_clause": "Sales may review anonymized customer feedback to inform product improvements.",
+      "legal_basis": "Anonymization and consent",
+      "access_allowed": true
+    },
+    {
+      "id": 42,
+      "data_category": "Employment_Records",
+      "department": "Operations",
+      "tos_clause": "Operations does not have permission to access detailed employment records.",
+      "legal_basis": "Privacy protection",
+      "access_allowed": false
+    },
+    {
+      "id": 43,
+      "data_category": "Usage_Data",
+      "department": "Data Science",
+      "tos_clause": "Data Science can access comprehensive usage data for predictive modeling.",
+      "legal_basis": "Operational necessity and research purposes",
+      "access_allowed": true
+    },
+    {
+      "id": 44,
+      "data_category": "Personal_Information",
+      "department": "Sales",
+      "tos_clause": "Sales is restricted from accessing individual personal information beyond aggregated data.",
+      "legal_basis": "Data minimization",
+      "access_allowed": false
+    },
+    {
+      "id": 45,
+      "data_category": "Device_Data",
+      "department": "Security",
+      "tos_clause": "Security can access device data to monitor for potential breaches.",
+      "legal_basis": "Operational necessity and security",
+      "access_allowed": true
+    },
+    {
+      "id": 46,
+      "data_category": "Location_Data",
+      "department": "Security",
+      "tos_clause": "Security is allowed to access real-time location data for safety monitoring.",
+      "legal_basis": "Security protocols",
+      "access_allowed": true
+    },
+    {
+      "id": 47,
+      "data_category": "Credit_History",
+      "department": "HR",
+      "tos_clause": "HR should not access credit history data as it is not relevant to employment.",
+      "legal_basis": "Data minimization",
+      "access_allowed": false
+    },
+    {
+      "id": 48,
+      "data_category": "Social_Security",
+      "department": "Legal & Compliance",
+      "tos_clause": "Legal & Compliance can access Social Security data for identity verification in legal cases.",
+      "legal_basis": "Regulatory obligations",
+      "access_allowed": true
+    },
+    {
+      "id": 49,
+      "data_category": "Payment_Information",
+      "department": "Operations",
+      "tos_clause": "Operations may access payment information only in aggregated form for financial planning.",
+      "legal_basis": "Data minimization",
+      "access_allowed": false
+    },
+    {
+      "id": 50,
+      "data_category": "Device_Data",
+      "department": "Finance",
+      "tos_clause": "Finance is not permitted to access detailed device data beyond billing logs.",
+      "legal_basis": "Privacy protection",
+      "access_allowed": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Comprehensive TOS Analyzer</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>TOS & Policy Analyzer</h1>
+      </header>
+
+      <!-- Website Info Section -->
+      <section class="website-info section">
+        <h2>Website Info</h2>
+        <div id="website-info" class="result">Loading website info...</div>
+      </section>
+
+      <!-- TOS Analysis Section -->
+      <section class="tos-analysis section">
+        <h2>TOS Analysis</h2>
+        <div id="fraud-result" class="result">Fraud Analysis: Loading...</div>
+        <div id="access-result" class="result">Access Evaluation: Loading...</div>
+        <div id="summary-result" class="result">Summarization: Loading...</div>
+      </section>
+
+      <!-- Chatbot Section -->
+      <section class="chatbot section">
+        <h2>Chatbot Q&A</h2>
+        <input type="text" id="chat-question" placeholder="Enter your question...">
+        <button id="chat-btn">Ask</button>
+        <div id="chat-result" class="result">Awaiting question...</div>
+      </section>
+
+      <footer>
+        <p>Powered by TOS Analyzer API</p>
+      </footer>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
